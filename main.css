@@ -31,7 +31,7 @@ h3 {
 p {
   color: #444444;
   margin: 0 0 10px 0;
-  line-height : 24px;
+  line-height: 24px;
 }
 a {
   color: #440000;
@@ -41,7 +41,7 @@ ul {
 }
 li {
   margin-bottom: 5px;
-  line-height : 22px;
+  line-height: 22px;
 }
 body {
   padding: 0;
@@ -129,3 +129,29 @@ ol {
 .album img {
   float: right;
 }
+textarea {
+  display: block;
+  margin-bottom: 15px;
+  width: 445px;
+  font-size: 20px;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input[type=submit]{
+  width  :165px;
+}
+input[type=checkbox], label[for=on-tour]{
+  display : inline;
+}
+
+input[type=text]{
+  width:445px;
+  }
